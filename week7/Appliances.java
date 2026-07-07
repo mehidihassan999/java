@@ -18,11 +18,11 @@ public abstract class Appliance {
         System.out.println("Power OFF");
     }
 
-    // Every appliance must define what "operating" means for it
+   
     public abstract void operate();
 }
 
-// ---------- Given / template appliances ----------
+
 
 class WashingMachine extends Appliance {
     public WashingMachine(String brand) {
@@ -46,7 +46,7 @@ class Refrigerator extends Appliance {
     }
 }
 
-// ---------- Two additional appliances (Activity #2) ----------
+
 
 class AirConditioner extends Appliance {
     public AirConditioner(String brand) {
